@@ -27,7 +27,7 @@ def on_mouse_press(x, y, button, modifiers):
 
 
 def setup():
-    arcade.open_window(WIDTH, HEIGHT, "My Arcade Game")
+    arcade.open_window(WIDTH, HEIGHT, "Python Arcade Poster")
     arcade.set_background_color(arcade.color.SILVER_CHALICE)
     arcade.schedule(on_update, 1/60)
 
